@@ -1,0 +1,5 @@
+numpy==1.23.5
+pandas==1.5.3      
+psycopg2==2.9.6     # สำหรับเชื่อมต่อ PostgreSQL
+boto3==1.26.28   # สำหรับเชื่อมต่อ MinIO
+apache-airflow==2.7.2  # Airflow ที่ต้องการ
