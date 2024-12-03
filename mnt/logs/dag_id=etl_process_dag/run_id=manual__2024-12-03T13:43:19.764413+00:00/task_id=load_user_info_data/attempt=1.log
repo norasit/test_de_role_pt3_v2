@@ -1,0 +1,18 @@
+[2024-12-03T13:43:25.521+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-03T13:43:25.552+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_process_dag.load_user_info_data manual__2024-12-03T13:43:19.764413+00:00 [queued]>
+[2024-12-03T13:43:25.560+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_process_dag.load_user_info_data manual__2024-12-03T13:43:19.764413+00:00 [queued]>
+[2024-12-03T13:43:25.560+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-12-03T13:43:25.572+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): load_user_info_data> on 2024-12-03 13:43:19.764413+00:00
+[2024-12-03T13:43:25.578+0000] {standard_task_runner.py:63} INFO - Started process 6477 to run task
+[2024-12-03T13:43:25.582+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl_process_dag', 'load_user_info_data', 'manual__2024-12-03T13:43:19.764413+00:00', '--job-id', '148', '--raw', '--subdir', 'DAGS_FOLDER/etl_sales.py', '--cfg-path', '/tmp/tmp1e9ouy6j']
+[2024-12-03T13:43:25.584+0000] {standard_task_runner.py:91} INFO - Job 148: Subtask load_user_info_data
+[2024-12-03T13:43:25.627+0000] {task_command.py:426} INFO - Running <TaskInstance: etl_process_dag.load_user_info_data manual__2024-12-03T13:43:19.764413+00:00 [running]> on host a6f8f8b1d92d
+[2024-12-03T13:43:25.882+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='k.norasit' AIRFLOW_CTX_DAG_ID='etl_process_dag' AIRFLOW_CTX_TASK_ID='load_user_info_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T13:43:19.764413+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-03T13:43:19.764413+00:00'
+[2024-12-03T13:43:25.884+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-03T13:43:26.027+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-12-03T13:43:26.028+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-03T13:43:26.037+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=etl_process_dag, task_id=load_user_info_data, execution_date=20241203T134319, start_date=20241203T134325, end_date=20241203T134326
+[2024-12-03T13:43:26.074+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-12-03T13:43:26.103+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/models/baseoperator.py:1296 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2024-12-03T13:43:26.128+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-03T13:43:26.130+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

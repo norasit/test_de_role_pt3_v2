@@ -1,0 +1,1806 @@
+[2024-12-02T22:06:01.750+0000] {processor.py:157} INFO - Started process (PID=1322) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:06:01.750+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:06:01.751+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:06:01.751+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:06:01.756+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:06:01.754+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:06:01.756+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:06:01.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T22:06:31.959+0000] {processor.py:157} INFO - Started process (PID=1350) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:06:31.959+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:06:31.960+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:06:31.960+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:06:31.963+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:06:31.962+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:06:31.964+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:06:31.985+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.030 seconds
+[2024-12-02T22:07:02.211+0000] {processor.py:157} INFO - Started process (PID=1372) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:07:02.212+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:07:02.213+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:07:02.213+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:07:02.217+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:07:02.216+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:07:02.218+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:07:02.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.034 seconds
+[2024-12-02T22:07:32.453+0000] {processor.py:157} INFO - Started process (PID=1393) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:07:32.454+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:07:32.455+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:07:32.455+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:07:32.459+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:07:32.458+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:07:32.459+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:07:32.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T22:08:02.693+0000] {processor.py:157} INFO - Started process (PID=1422) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:08:02.701+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:08:02.702+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:08:02.702+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:08:02.706+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:08:02.705+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:08:02.706+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:08:02.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.041 seconds
+[2024-12-02T22:08:32.936+0000] {processor.py:157} INFO - Started process (PID=1443) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:08:32.937+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:08:32.938+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:08:32.937+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:08:32.942+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:08:32.941+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:08:32.943+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:08:32.968+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T22:09:03.189+0000] {processor.py:157} INFO - Started process (PID=1472) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:09:03.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:09:03.192+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:09:03.191+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:09:03.197+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:09:03.195+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:09:03.197+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:09:03.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T22:09:33.466+0000] {processor.py:157} INFO - Started process (PID=1493) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:09:33.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:09:33.469+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:09:33.468+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:09:33.474+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:09:33.472+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:09:33.475+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:09:33.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:10:03.664+0000] {processor.py:157} INFO - Started process (PID=1522) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:10:03.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:10:03.673+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:10:03.673+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:10:03.677+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:10:03.675+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:10:03.678+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:10:03.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:10:33.950+0000] {processor.py:157} INFO - Started process (PID=1544) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:10:33.951+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:10:33.951+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:10:33.951+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:10:33.956+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:10:33.954+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:10:33.956+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:10:33.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:11:04.209+0000] {processor.py:157} INFO - Started process (PID=1565) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:11:04.217+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:11:04.218+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:11:04.218+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:11:04.223+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:11:04.222+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:11:04.223+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:11:04.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.056 seconds
+[2024-12-02T22:11:34.465+0000] {processor.py:157} INFO - Started process (PID=1594) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:11:34.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:11:34.467+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:11:34.466+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:11:34.472+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:11:34.471+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:11:34.472+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:11:34.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.033 seconds
+[2024-12-02T22:12:04.735+0000] {processor.py:157} INFO - Started process (PID=1615) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:12:04.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:12:04.744+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:12:04.744+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:12:04.748+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:12:04.747+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:12:04.749+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:12:04.779+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.048 seconds
+[2024-12-02T22:12:34.955+0000] {processor.py:157} INFO - Started process (PID=1644) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:12:34.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:12:34.957+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:12:34.957+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:12:34.962+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:12:34.961+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:12:34.962+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:12:34.987+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T22:13:05.214+0000] {processor.py:157} INFO - Started process (PID=1665) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:13:05.222+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:13:05.223+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:13:05.223+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:13:05.228+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:13:05.226+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:13:05.228+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:13:05.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:13:35.481+0000] {processor.py:157} INFO - Started process (PID=1694) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:13:35.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:13:35.483+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:13:35.483+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:13:35.487+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:13:35.486+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:13:35.488+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:13:35.514+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T22:14:05.776+0000] {processor.py:157} INFO - Started process (PID=1716) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:14:05.785+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:14:05.786+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:14:05.786+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:14:05.791+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:14:05.789+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:14:05.792+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:14:05.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:14:36.012+0000] {processor.py:157} INFO - Started process (PID=1745) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:14:36.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:14:36.015+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:14:36.014+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:14:36.019+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:14:36.018+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:14:36.020+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:14:36.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:15:06.269+0000] {processor.py:157} INFO - Started process (PID=1766) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:15:06.270+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:15:06.271+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:15:06.270+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:15:06.275+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:15:06.273+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:15:06.275+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:15:06.306+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.041 seconds
+[2024-12-02T22:15:36.502+0000] {processor.py:157} INFO - Started process (PID=1795) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:15:36.511+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:15:36.512+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:15:36.512+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:15:36.519+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:15:36.518+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:15:36.520+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:15:36.547+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.049 seconds
+[2024-12-02T22:16:06.798+0000] {processor.py:157} INFO - Started process (PID=1816) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:16:06.799+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:16:06.800+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:16:06.800+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:16:06.807+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:16:06.804+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:16:06.808+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:16:06.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T22:16:37.089+0000] {processor.py:157} INFO - Started process (PID=1837) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:16:37.090+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:16:37.091+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:16:37.090+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:16:37.095+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:16:37.093+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:16:37.096+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:16:37.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T22:17:07.357+0000] {processor.py:157} INFO - Started process (PID=1866) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:17:07.358+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:17:07.360+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:17:07.359+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:17:07.363+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:17:07.362+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:17:07.364+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:17:07.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.039 seconds
+[2024-12-02T22:17:37.619+0000] {processor.py:157} INFO - Started process (PID=1887) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:17:37.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:17:37.628+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:17:37.628+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:17:37.633+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:17:37.632+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:17:37.634+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:17:37.661+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.047 seconds
+[2024-12-02T22:18:07.854+0000] {processor.py:157} INFO - Started process (PID=1916) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:18:07.856+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:18:07.857+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:18:07.857+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:18:07.862+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:18:07.861+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:18:07.863+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:18:07.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:18:38.144+0000] {processor.py:157} INFO - Started process (PID=1937) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:18:38.152+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:18:38.153+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:18:38.153+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:18:38.159+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:18:38.157+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:18:38.161+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:18:38.186+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:19:08.405+0000] {processor.py:157} INFO - Started process (PID=1966) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:19:08.406+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:19:08.407+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:19:08.407+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:19:08.411+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:19:08.410+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:19:08.412+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:19:08.436+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T22:19:38.696+0000] {processor.py:157} INFO - Started process (PID=1987) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:19:38.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:19:38.705+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:19:38.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:19:38.711+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:19:38.709+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:19:38.712+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:19:38.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:20:08.923+0000] {processor.py:157} INFO - Started process (PID=2016) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:20:08.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:20:08.932+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:20:08.932+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:20:08.936+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:20:08.935+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:20:08.936+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:20:08.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.041 seconds
+[2024-12-02T22:20:39.166+0000] {processor.py:157} INFO - Started process (PID=2037) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:20:39.167+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:20:39.168+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:20:39.168+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:20:39.173+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:20:39.172+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:20:39.173+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:20:39.200+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T22:23:48.654+0000] {processor.py:157} INFO - Started process (PID=177) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:23:48.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:23:48.657+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:23:48.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:23:48.664+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:23:48.662+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:23:48.665+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:23:48.696+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.048 seconds
+[2024-12-02T22:24:18.901+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:24:18.902+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:24:18.903+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:24:18.902+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:24:18.907+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:24:18.906+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:24:18.907+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:24:18.936+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.039 seconds
+[2024-12-02T22:24:49.168+0000] {processor.py:157} INFO - Started process (PID=220) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:24:49.176+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:24:49.178+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:24:49.177+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:24:49.183+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:24:49.182+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:24:49.183+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:24:49.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:25:19.404+0000] {processor.py:157} INFO - Started process (PID=249) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:25:19.413+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:25:19.414+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:25:19.414+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:25:19.421+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:25:19.420+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:25:19.421+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:25:19.443+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T22:25:49.588+0000] {processor.py:157} INFO - Started process (PID=270) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:25:49.598+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:25:49.599+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:25:49.598+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:25:49.606+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:25:49.604+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:25:49.606+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:25:49.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.048 seconds
+[2024-12-02T22:26:19.892+0000] {processor.py:157} INFO - Started process (PID=299) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:26:19.900+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:26:19.901+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:26:19.901+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:26:19.907+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:26:19.904+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:26:19.908+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:26:19.932+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T22:26:50.181+0000] {processor.py:157} INFO - Started process (PID=320) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:26:50.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:26:50.191+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:26:50.190+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:26:50.195+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:26:50.194+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:26:50.196+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:26:50.220+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:27:20.436+0000] {processor.py:157} INFO - Started process (PID=349) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:27:20.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:27:20.445+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:27:20.445+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:27:20.452+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:27:20.451+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:27:20.452+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:27:20.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:27:50.721+0000] {processor.py:157} INFO - Started process (PID=370) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:27:50.729+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:27:50.730+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:27:50.730+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:27:50.737+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:27:50.736+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:27:50.738+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:27:50.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T22:28:20.957+0000] {processor.py:157} INFO - Started process (PID=399) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:28:20.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:28:20.967+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:28:20.967+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:28:20.974+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:28:20.972+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:28:20.975+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:28:21.003+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.050 seconds
+[2024-12-02T22:28:51.214+0000] {processor.py:157} INFO - Started process (PID=420) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:28:51.223+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:28:51.225+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:28:51.224+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:28:51.230+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:28:51.229+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:28:51.231+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:28:51.253+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:29:21.470+0000] {processor.py:157} INFO - Started process (PID=449) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:29:21.479+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:29:21.480+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:29:21.480+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:29:21.489+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:29:21.486+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:29:21.490+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:29:21.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:29:51.728+0000] {processor.py:157} INFO - Started process (PID=470) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:29:51.737+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:29:51.738+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:29:51.737+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:29:51.743+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:29:51.741+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:29:51.743+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:29:51.767+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.042 seconds
+[2024-12-02T22:30:21.957+0000] {processor.py:157} INFO - Started process (PID=499) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:30:21.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:30:21.969+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:30:21.968+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:30:21.974+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:30:21.972+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:30:21.976+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:30:22.005+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.052 seconds
+[2024-12-02T22:30:52.163+0000] {processor.py:157} INFO - Started process (PID=519) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:30:52.164+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:30:52.165+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:30:52.165+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:30:52.169+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:30:52.168+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:30:52.170+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:30:52.198+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.039 seconds
+[2024-12-02T22:31:22.449+0000] {processor.py:157} INFO - Started process (PID=540) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:31:22.450+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:31:22.451+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:31:22.450+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:31:22.455+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:31:22.454+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:31:22.456+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:31:22.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.037 seconds
+[2024-12-02T22:31:52.694+0000] {processor.py:157} INFO - Started process (PID=569) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:31:52.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:31:52.704+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:31:52.703+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:31:52.709+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:31:52.707+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:31:52.709+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:31:52.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.040 seconds
+[2024-12-02T22:32:22.971+0000] {processor.py:157} INFO - Started process (PID=590) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:32:22.979+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:32:22.980+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:32:22.980+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:32:22.988+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:32:22.986+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:32:22.988+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:32:23.014+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:32:53.254+0000] {processor.py:157} INFO - Started process (PID=619) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:32:53.263+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:32:53.265+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:32:53.264+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:32:53.273+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:32:53.271+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:32:53.273+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:32:53.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:33:23.487+0000] {processor.py:157} INFO - Started process (PID=640) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:33:23.495+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:33:23.497+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:33:23.496+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:33:23.502+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:33:23.501+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:33:23.503+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:33:23.526+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:33:53.759+0000] {processor.py:157} INFO - Started process (PID=669) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:33:53.767+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:33:53.768+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:33:53.768+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:33:53.772+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:33:53.771+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:33:53.773+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:33:53.795+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.041 seconds
+[2024-12-02T22:34:24.032+0000] {processor.py:157} INFO - Started process (PID=690) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:34:24.041+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:34:24.043+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:34:24.042+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:34:24.047+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:34:24.046+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:34:24.048+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:34:24.071+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:34:54.290+0000] {processor.py:157} INFO - Started process (PID=719) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:34:54.298+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:34:54.300+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:34:54.300+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:34:54.305+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:34:54.303+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:34:54.305+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:34:54.325+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.039 seconds
+[2024-12-02T22:35:24.589+0000] {processor.py:157} INFO - Started process (PID=741) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:35:24.598+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:35:24.599+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:35:24.598+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:35:24.606+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:35:24.605+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:35:24.606+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:35:24.631+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:35:54.881+0000] {processor.py:157} INFO - Started process (PID=762) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:35:54.889+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:35:54.890+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:35:54.890+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:35:54.896+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:35:54.894+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:35:54.896+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:35:54.922+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T22:36:25.117+0000] {processor.py:157} INFO - Started process (PID=791) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:36:25.126+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:36:25.128+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:36:25.127+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:36:25.134+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:36:25.132+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:36:25.135+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:36:25.158+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T22:36:55.393+0000] {processor.py:157} INFO - Started process (PID=812) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:36:55.401+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:36:55.402+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:36:55.402+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:36:55.408+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:36:55.407+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:36:55.408+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:36:55.433+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:37:25.642+0000] {processor.py:157} INFO - Started process (PID=841) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:37:25.650+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:37:25.653+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:37:25.652+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:37:25.661+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:37:25.659+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:37:25.661+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:37:25.683+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T22:37:55.947+0000] {processor.py:157} INFO - Started process (PID=862) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:37:55.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:37:55.957+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:37:55.957+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:37:55.961+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:37:55.960+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:37:55.962+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:37:55.985+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.042 seconds
+[2024-12-02T22:38:26.201+0000] {processor.py:157} INFO - Started process (PID=891) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:38:26.202+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:38:26.202+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:38:26.202+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:38:26.206+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:38:26.205+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:38:26.207+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:38:26.231+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.033 seconds
+[2024-12-02T22:38:56.435+0000] {processor.py:157} INFO - Started process (PID=912) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:38:56.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:38:56.437+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:38:56.436+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:38:56.441+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:38:56.440+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:38:56.442+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:38:56.467+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T22:39:26.661+0000] {processor.py:157} INFO - Started process (PID=940) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:39:26.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:39:26.670+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:39:26.669+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:39:26.674+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:39:26.673+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:39:26.675+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:39:26.696+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.039 seconds
+[2024-12-02T22:39:56.881+0000] {processor.py:157} INFO - Started process (PID=962) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:39:56.890+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:39:56.891+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:39:56.891+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:39:56.897+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:39:56.895+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:39:56.898+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:39:56.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:40:27.145+0000] {processor.py:157} INFO - Started process (PID=983) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:40:27.155+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:40:27.156+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:40:27.155+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:40:27.160+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:40:27.158+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:40:27.160+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:40:27.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.042 seconds
+[2024-12-02T22:40:57.392+0000] {processor.py:157} INFO - Started process (PID=1012) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:40:57.401+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:40:57.403+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:40:57.402+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:40:57.409+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:40:57.407+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:40:57.410+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:40:57.432+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:41:27.658+0000] {processor.py:157} INFO - Started process (PID=1033) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:41:27.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:41:27.667+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:41:27.667+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:41:27.671+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:41:27.670+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:41:27.671+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:41:27.695+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.042 seconds
+[2024-12-02T22:41:57.889+0000] {processor.py:157} INFO - Started process (PID=1062) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:41:57.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:41:57.900+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:41:57.899+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:41:57.907+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:41:57.905+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:41:57.907+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:41:57.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:42:28.141+0000] {processor.py:157} INFO - Started process (PID=1083) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:42:28.142+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:42:28.143+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:42:28.143+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:42:28.148+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:42:28.147+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:42:28.148+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:42:28.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T22:42:58.418+0000] {processor.py:157} INFO - Started process (PID=1112) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:42:58.427+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:42:58.428+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:42:58.428+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:42:58.434+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:42:58.433+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:42:58.435+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:42:58.456+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.042 seconds
+[2024-12-02T22:43:28.682+0000] {processor.py:157} INFO - Started process (PID=1133) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:43:28.691+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:43:28.692+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:43:28.692+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:43:28.697+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:43:28.695+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:43:28.698+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:43:28.718+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.040 seconds
+[2024-12-02T22:43:58.909+0000] {processor.py:157} INFO - Started process (PID=1162) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:43:58.917+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:43:58.918+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:43:58.918+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:43:58.925+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:43:58.922+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:43:58.926+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:43:58.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T22:44:29.177+0000] {processor.py:157} INFO - Started process (PID=1183) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:44:29.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:44:29.187+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:44:29.186+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:44:29.191+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:44:29.190+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:44:29.192+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:44:29.217+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:44:59.380+0000] {processor.py:157} INFO - Started process (PID=1212) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:44:59.390+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:44:59.393+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:44:59.392+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:44:59.401+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:44:59.399+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:44:59.401+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:44:59.423+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.048 seconds
+[2024-12-02T22:45:29.638+0000] {processor.py:157} INFO - Started process (PID=1233) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:45:29.647+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:45:29.648+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:45:29.648+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:45:29.654+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:45:29.653+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:45:29.655+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:45:29.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T22:45:59.908+0000] {processor.py:157} INFO - Started process (PID=1254) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:45:59.918+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:45:59.920+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:45:59.919+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:45:59.925+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:45:59.923+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:45:59.926+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:45:59.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T22:46:30.155+0000] {processor.py:157} INFO - Started process (PID=1283) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:46:30.156+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:46:30.157+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:46:30.157+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:46:30.162+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:46:30.160+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:46:30.162+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:46:30.187+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T22:47:00.431+0000] {processor.py:157} INFO - Started process (PID=1304) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:47:00.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:47:00.433+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:47:00.433+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:47:00.438+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:47:00.436+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:47:00.439+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:47:00.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.037 seconds
+[2024-12-02T22:47:30.696+0000] {processor.py:157} INFO - Started process (PID=1333) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:47:30.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:47:30.706+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:47:30.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:47:30.711+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:47:30.710+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:47:30.712+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:47:30.735+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T22:48:00.951+0000] {processor.py:157} INFO - Started process (PID=1354) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:48:00.959+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:48:00.960+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:48:00.959+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:48:00.965+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:48:00.964+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:48:00.966+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:48:00.988+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.041 seconds
+[2024-12-02T22:48:31.169+0000] {processor.py:157} INFO - Started process (PID=1383) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:48:31.177+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:48:31.178+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:48:31.178+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:48:31.185+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:48:31.182+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:48:31.186+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:48:31.210+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T22:49:01.445+0000] {processor.py:157} INFO - Started process (PID=1404) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:49:01.446+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T22:49:01.447+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:49:01.447+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:49:01.452+0000] {logging_mixin.py:151} INFO - [2024-12-02T22:49:01.451+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T22:49:01.452+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T22:49:01.477+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T23:35:10.485+0000] {processor.py:161} INFO - Started process (PID=175) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:35:10.488+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:35:10.489+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:35:10.489+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:35:10.494+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:35:10.493+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:35:10.495+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:35:10.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T23:35:40.755+0000] {processor.py:161} INFO - Started process (PID=194) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:35:40.763+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:35:40.766+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:35:40.765+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:35:40.769+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:35:40.768+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:35:40.770+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:35:40.791+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T23:36:10.961+0000] {processor.py:161} INFO - Started process (PID=220) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:36:10.962+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:36:10.963+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:36:10.963+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:36:10.966+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:36:10.965+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:36:10.966+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:36:10.982+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.027 seconds
+[2024-12-02T23:36:41.243+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:36:41.251+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:36:41.253+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:36:41.253+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:36:41.256+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:36:41.255+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:36:41.256+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:36:41.277+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.041 seconds
+[2024-12-02T23:37:11.563+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:37:11.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:37:11.575+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:37:11.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:37:11.579+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:37:11.578+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:37:11.580+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:37:11.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.045 seconds
+[2024-12-02T23:37:41.801+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:37:41.810+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:37:41.812+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:37:41.811+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:37:41.814+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:37:41.814+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:37:41.815+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:37:41.834+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.039 seconds
+[2024-12-02T23:38:12.050+0000] {processor.py:161} INFO - Started process (PID=303) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:38:12.058+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:38:12.060+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:38:12.059+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:38:12.062+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:38:12.061+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:38:12.062+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:38:12.078+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.034 seconds
+[2024-12-02T23:38:42.283+0000] {processor.py:161} INFO - Started process (PID=328) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:38:42.291+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:38:42.293+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:38:42.292+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:38:42.295+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:38:42.295+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:38:42.296+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:38:42.312+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.039 seconds
+[2024-12-02T23:39:12.503+0000] {processor.py:161} INFO - Started process (PID=348) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:39:12.512+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:39:12.514+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:39:12.513+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:39:12.517+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:39:12.516+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:39:12.517+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:39:12.535+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T23:39:42.758+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:39:42.766+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:39:42.768+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:39:42.768+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:39:42.771+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:39:42.771+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:39:42.772+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:39:42.793+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T23:40:12.999+0000] {processor.py:161} INFO - Started process (PID=393) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:40:13.007+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:40:13.009+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:40:13.009+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:40:13.012+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:40:13.011+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:40:13.012+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:40:13.028+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T23:40:43.274+0000] {processor.py:161} INFO - Started process (PID=412) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:40:43.283+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:40:43.285+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:40:43.284+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:40:43.288+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:40:43.287+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:40:43.288+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:40:43.310+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T23:41:13.564+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:41:13.572+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:41:13.574+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:41:13.574+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:41:13.578+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:41:13.576+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:41:13.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:41:13.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T23:41:43.777+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:41:43.785+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:41:43.786+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:41:43.786+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:41:43.788+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:41:43.788+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:41:43.789+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:41:43.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T23:42:14.036+0000] {processor.py:161} INFO - Started process (PID=476) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:42:14.044+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:42:14.046+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:42:14.046+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:42:14.049+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:42:14.049+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:42:14.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:42:14.071+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.046 seconds
+[2024-12-02T23:42:44.265+0000] {processor.py:161} INFO - Started process (PID=495) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:42:44.266+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:42:44.268+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:42:44.268+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:42:44.272+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:42:44.271+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:42:44.272+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:42:44.294+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T23:43:14.467+0000] {processor.py:161} INFO - Started process (PID=522) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:43:14.468+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:43:14.470+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:43:14.470+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:43:14.474+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:43:14.473+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:43:14.474+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:43:14.495+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.037 seconds
+[2024-12-02T23:44:45.664+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:44:45.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:44:45.667+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:44:45.667+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:44:45.670+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:44:45.669+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:44:45.671+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:44:45.692+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.034 seconds
+[2024-12-02T23:45:15.916+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:45:15.925+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:45:15.927+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:45:15.926+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:45:15.929+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:45:15.929+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:45:15.930+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:45:15.947+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T23:45:46.158+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:45:46.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:45:46.160+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:45:46.160+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:45:46.163+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:45:46.162+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:45:46.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:45:46.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T23:46:16.394+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:46:16.402+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:46:16.404+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:46:16.404+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:46:16.407+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:46:16.407+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:46:16.408+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:46:16.430+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T23:46:46.682+0000] {processor.py:161} INFO - Started process (PID=256) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:46:46.691+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:46:46.697+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:46:46.696+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:46:46.708+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:46:46.705+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:46:46.710+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:46:46.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.065 seconds
+[2024-12-02T23:47:16.943+0000] {processor.py:161} INFO - Started process (PID=282) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:47:16.951+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:47:16.952+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:47:16.952+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:47:16.955+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:47:16.954+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:47:16.955+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:47:16.971+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.035 seconds
+[2024-12-02T23:47:47.196+0000] {processor.py:161} INFO - Started process (PID=301) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:47:47.205+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:47:47.210+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:47:47.209+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:47:47.219+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:47:47.217+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:47:47.221+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:47:47.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.069 seconds
+[2024-12-02T23:48:17.448+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:48:17.458+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:48:17.463+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:48:17.462+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:48:17.474+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:48:17.471+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:48:17.475+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:48:17.514+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.072 seconds
+[2024-12-02T23:48:47.672+0000] {processor.py:161} INFO - Started process (PID=346) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:48:47.680+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:48:47.682+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:48:47.681+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:48:47.684+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:48:47.684+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:48:47.685+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:48:47.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T23:49:17.904+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:49:17.913+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:49:17.914+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:49:17.914+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:49:17.917+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:49:17.917+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:49:17.918+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:49:17.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T23:49:48.159+0000] {processor.py:161} INFO - Started process (PID=384) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:49:48.159+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:49:48.161+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:49:48.161+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:49:48.164+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:49:48.163+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:49:48.164+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:49:48.182+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.031 seconds
+[2024-12-02T23:50:18.395+0000] {processor.py:161} INFO - Started process (PID=410) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:50:18.403+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:50:18.404+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:50:18.404+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:50:18.407+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:50:18.406+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:50:18.407+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:50:18.423+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T23:50:48.652+0000] {processor.py:161} INFO - Started process (PID=429) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:50:48.653+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:50:48.654+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:50:48.654+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:50:48.657+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:50:48.656+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:50:48.657+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:50:48.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.028 seconds
+[2024-12-02T23:51:18.948+0000] {processor.py:161} INFO - Started process (PID=448) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:51:18.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:51:18.958+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:51:18.958+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:51:18.961+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:51:18.960+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:51:18.961+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:51:18.981+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.041 seconds
+[2024-12-02T23:51:49.170+0000] {processor.py:161} INFO - Started process (PID=474) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:51:49.171+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:51:49.172+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:51:49.172+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:51:49.175+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:51:49.174+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:51:49.175+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:51:49.192+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.027 seconds
+[2024-12-02T23:52:19.445+0000] {processor.py:161} INFO - Started process (PID=493) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:52:19.454+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:52:19.455+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:52:19.455+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:52:19.458+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:52:19.457+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:52:19.458+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:52:19.474+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.036 seconds
+[2024-12-02T23:52:49.717+0000] {processor.py:161} INFO - Started process (PID=512) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:52:49.717+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:52:49.719+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:52:49.718+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:52:49.722+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:52:49.721+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:52:49.722+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:52:49.740+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.030 seconds
+[2024-12-02T23:53:19.919+0000] {processor.py:161} INFO - Started process (PID=538) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:53:19.920+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:53:19.922+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:53:19.922+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:53:19.926+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:53:19.925+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:53:19.926+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:53:19.944+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.033 seconds
+[2024-12-02T23:53:50.167+0000] {processor.py:161} INFO - Started process (PID=557) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:53:50.168+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:53:50.169+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:53:50.169+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:53:50.172+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:53:50.171+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:53:50.172+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:53:50.190+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.032 seconds
+[2024-12-02T23:54:20.379+0000] {processor.py:161} INFO - Started process (PID=576) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:54:20.380+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:54:20.382+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:54:20.381+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:54:20.384+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:54:20.384+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:54:20.385+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:54:20.404+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.031 seconds
+[2024-12-02T23:54:50.589+0000] {processor.py:161} INFO - Started process (PID=603) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:54:50.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:54:50.592+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:54:50.591+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:54:50.595+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:54:50.595+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:54:50.596+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:54:50.619+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.038 seconds
+[2024-12-02T23:55:20.875+0000] {processor.py:161} INFO - Started process (PID=622) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:55:20.883+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:55:20.885+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:55:20.885+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:55:20.888+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:55:20.887+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:55:20.888+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:55:20.907+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.040 seconds
+[2024-12-02T23:55:51.105+0000] {processor.py:161} INFO - Started process (PID=641) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:55:51.105+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:55:51.107+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:55:51.106+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:55:51.109+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:55:51.109+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:55:51.110+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:55:51.127+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.028 seconds
+[2024-12-02T23:56:21.328+0000] {processor.py:161} INFO - Started process (PID=667) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:56:21.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:56:21.339+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:56:21.338+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:56:21.341+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:56:21.341+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:56:21.342+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:56:21.359+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.040 seconds
+[2024-12-02T23:56:51.605+0000] {processor.py:161} INFO - Started process (PID=686) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:56:51.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:56:51.607+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:56:51.607+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:56:51.611+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:56:51.610+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:56:51.611+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:56:51.630+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.035 seconds
+[2024-12-02T23:57:21.843+0000] {processor.py:161} INFO - Started process (PID=705) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:57:21.852+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:57:21.858+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:57:21.857+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:57:21.868+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:57:21.866+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:57:21.870+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:57:21.903+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.068 seconds
+[2024-12-02T23:57:52.060+0000] {processor.py:161} INFO - Started process (PID=731) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:57:52.060+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:57:52.062+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:57:52.062+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:57:52.065+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:57:52.064+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:57:52.065+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:57:52.083+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.031 seconds
+[2024-12-02T23:58:22.331+0000] {processor.py:161} INFO - Started process (PID=750) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:58:22.340+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:58:22.342+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:58:22.341+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:58:22.345+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:58:22.344+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:58:22.345+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:58:22.367+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.044 seconds
+[2024-12-02T23:58:52.603+0000] {processor.py:161} INFO - Started process (PID=769) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:58:52.604+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:58:52.605+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:58:52.605+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:58:52.608+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:58:52.608+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:58:52.609+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:58:52.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.034 seconds
+[2024-12-02T23:59:22.823+0000] {processor.py:161} INFO - Started process (PID=795) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:59:22.831+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:59:22.833+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:59:22.833+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:59:22.837+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:59:22.836+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:59:22.837+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:59:22.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.043 seconds
+[2024-12-02T23:59:53.072+0000] {processor.py:161} INFO - Started process (PID=814) to work on /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:59:53.073+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl_sales.py for tasks to queue
+[2024-12-02T23:59:53.074+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:59:53.074+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:59:53.077+0000] {logging_mixin.py:188} INFO - [2024-12-02T23:59:53.077+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/etl_sales.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl_sales.py", line 4, in <module>
+    from airflow.providers.amazon.aws.transfers.s3_to_local import S3ToLocalOperator
+ModuleNotFoundError: No module named 'airflow.providers.amazon.aws.transfers.s3_to_local'
+[2024-12-02T23:59:53.078+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl_sales.py
+[2024-12-02T23:59:53.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl_sales.py took 0.033 seconds

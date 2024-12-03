@@ -1,0 +1,91 @@
+[2024-12-03T14:05:36.531+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-03T14:05:36.717+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_process_dag.load_transaction_data manual__2024-12-03T14:05:30.807923+00:00 [queued]>
+[2024-12-03T14:05:36.728+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_process_dag.load_transaction_data manual__2024-12-03T14:05:30.807923+00:00 [queued]>
+[2024-12-03T14:05:36.728+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-12-03T14:05:36.751+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): load_transaction_data> on 2024-12-03 14:05:30.807923+00:00
+[2024-12-03T14:05:36.758+0000] {standard_task_runner.py:63} INFO - Started process 7502 to run task
+[2024-12-03T14:05:36.762+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl_process_dag', 'load_transaction_data', 'manual__2024-12-03T14:05:30.807923+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/etl_sales.py', '--cfg-path', '/tmp/tmpxygro77q']
+[2024-12-03T14:05:36.764+0000] {standard_task_runner.py:91} INFO - Job 163: Subtask load_transaction_data
+[2024-12-03T14:05:36.818+0000] {task_command.py:426} INFO - Running <TaskInstance: etl_process_dag.load_transaction_data manual__2024-12-03T14:05:30.807923+00:00 [running]> on host a6f8f8b1d92d
+[2024-12-03T14:05:36.919+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='k.norasit' AIRFLOW_CTX_DAG_ID='etl_process_dag' AIRFLOW_CTX_TASK_ID='load_transaction_data' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T14:05:30.807923+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-03T14:05:30.807923+00:00'
+[2024-12-03T14:05:36.921+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-03T14:05:37.036+0000] {logging_mixin.py:188} INFO - Processing file: sales_2024_03_01.csv
+[2024-12-03T14:05:37.074+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-03T14:05:37.074+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 982, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+  File "/home/airflow/.local/lib/python3.9/site-packages/psycopg2/extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "transaction_pkey"
+DETAIL:  Key (order_id)=(812) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.9/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/etl_sales.py", line 99, in load_transaction_data_to_postgres
+    df.to_sql(table_name, con=engine, if_exists='append', index=False)
+  File "/home/airflow/.local/lib/python3.9/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.9/site-packages/pandas/core/generic.py", line 3008, in to_sql
+    return sql.to_sql(
+  File "/home/airflow/.local/lib/python3.9/site-packages/pandas/io/sql.py", line 788, in to_sql
+    return pandas_sql.to_sql(
+  File "/home/airflow/.local/lib/python3.9/site-packages/pandas/io/sql.py", line 1958, in to_sql
+    total_inserted = sql_engine.insert_records(
+  File "/home/airflow/.local/lib/python3.9/site-packages/pandas/io/sql.py", line 1507, in insert_records
+    raise err
+  File "/home/airflow/.local/lib/python3.9/site-packages/pandas/io/sql.py", line 1498, in insert_records
+    return table.insert(chunksize=chunksize, method=method)
+  File "/home/airflow/.local/lib/python3.9/site-packages/pandas/io/sql.py", line 1059, in insert
+    num_inserted = exec_insert(conn, keys, chunk_iter)
+  File "/home/airflow/.local/lib/python3.9/site-packages/pandas/io/sql.py", line 951, in _execute_insert
+    result = conn.execute(self.table.insert(), data)
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1890, in _execute_context
+    self.dialect.do_executemany(
+  File "/home/airflow/.local/lib/python3.9/site-packages/sqlalchemy/dialects/postgresql/psycopg2.py", line 982, in do_executemany
+    context._psycopg2_fetched_rows = xtras.execute_values(
+  File "/home/airflow/.local/lib/python3.9/site-packages/psycopg2/extras.py", line 1299, in execute_values
+    cur.execute(b''.join(parts))
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "transaction_pkey"
+DETAIL:  Key (order_id)=(812) already exists.
+
+[SQL: INSERT INTO transaction (order_id, user_id, product_id, quantity, amount, order_date) VALUES (%(order_id)s, %(user_id)s, %(product_id)s, %(quantity)s, %(amount)s, %(order_date)s)]
+[parameters: ({'order_id': 812, 'user_id': 482, 'product_id': 100081, 'quantity': 77, 'amount': 227, 'order_date': '2024-03-01'}, {'order_id': 813, 'user_id': 516, 'product_id': 100047, 'quantity': 55, 'amount': 226, 'order_date': '2024-03-01'}, {'order_id': 814, 'user_id': 500, 'product_id': 100065, 'quantity': 46, 'amount': 218, 'order_date': '2024-03-01'}, {'order_id': 815, 'user_id': 500, 'product_id': 100082, 'quantity': 1, 'amount': 211, 'order_date': '2024-03-01'}, {'order_id': 816, 'user_id': 515, 'product_id': 100053, 'quantity': 78, 'amount': 194, 'order_date': '2024-03-01'}, {'order_id': 817, 'user_id': 481, 'product_id': 100039, 'quantity': 31, 'amount': 111, 'order_date': '2024-03-01'}, {'order_id': 818, 'user_id': 486, 'product_id': 100017, 'quantity': 89, 'amount': 112, 'order_date': '2024-03-01'}, {'order_id': 819, 'user_id': 509, 'product_id': 100052, 'quantity': 93, 'amount': 148, 'order_date': '2024-03-01'}  ... displaying 10 of 194 total bound parameter sets ...  {'order_id': 1004, 'user_id': 486, 'product_id': 100048, 'quantity': 34, 'amount': 70, 'order_date': '2024-03-01'}, {'order_id': 1005, 'user_id': 514, 'product_id': 100090, 'quantity': 31, 'amount': 179, 'order_date': '2024-03-01'})]
+(Background on this error at: https://sqlalche.me/e/14/gkpj)
+[2024-12-03T14:05:37.088+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=etl_process_dag, task_id=load_transaction_data, execution_date=20241203T140530, start_date=20241203T140536, end_date=20241203T140537
+[2024-12-03T14:05:37.103+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 163 for task load_transaction_data ((psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "transaction_pkey"
+DETAIL:  Key (order_id)=(812) already exists.
+
+[SQL: INSERT INTO transaction (order_id, user_id, product_id, quantity, amount, order_date) VALUES (%(order_id)s, %(user_id)s, %(product_id)s, %(quantity)s, %(amount)s, %(order_date)s)]
+[parameters: ({'order_id': 812, 'user_id': 482, 'product_id': 100081, 'quantity': 77, 'amount': 227, 'order_date': '2024-03-01'}, {'order_id': 813, 'user_id': 516, 'product_id': 100047, 'quantity': 55, 'amount': 226, 'order_date': '2024-03-01'}, {'order_id': 814, 'user_id': 500, 'product_id': 100065, 'quantity': 46, 'amount': 218, 'order_date': '2024-03-01'}, {'order_id': 815, 'user_id': 500, 'product_id': 100082, 'quantity': 1, 'amount': 211, 'order_date': '2024-03-01'}, {'order_id': 816, 'user_id': 515, 'product_id': 100053, 'quantity': 78, 'amount': 194, 'order_date': '2024-03-01'}, {'order_id': 817, 'user_id': 481, 'product_id': 100039, 'quantity': 31, 'amount': 111, 'order_date': '2024-03-01'}, {'order_id': 818, 'user_id': 486, 'product_id': 100017, 'quantity': 89, 'amount': 112, 'order_date': '2024-03-01'}, {'order_id': 819, 'user_id': 509, 'product_id': 100052, 'quantity': 93, 'amount': 148, 'order_date': '2024-03-01'}  ... displaying 10 of 194 total bound parameter sets ...  {'order_id': 1004, 'user_id': 486, 'product_id': 100048, 'quantity': 34, 'amount': 70, 'order_date': '2024-03-01'}, {'order_id': 1005, 'user_id': 514, 'product_id': 100090, 'quantity': 31, 'amount': 179, 'order_date': '2024-03-01'})]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 7502)
+[2024-12-03T14:05:37.134+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-12-03T14:05:37.148+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/models/baseoperator.py:1296 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2024-12-03T14:05:37.162+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-03T14:05:37.166+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

@@ -1,0 +1,40 @@
+[2024-12-03T14:13:54.607+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-12-03T14:13:54.703+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_process_dag.create_top_products_table manual__2024-12-03T14:13:52.680339+00:00 [queued]>
+[2024-12-03T14:13:54.739+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_process_dag.create_top_products_table manual__2024-12-03T14:13:52.680339+00:00 [queued]>
+[2024-12-03T14:13:54.740+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-12-03T14:13:54.781+0000] {taskinstance.py:2327} INFO - Executing <Task(PostgresOperator): create_top_products_table> on 2024-12-03 14:13:52.680339+00:00
+[2024-12-03T14:13:54.792+0000] {standard_task_runner.py:63} INFO - Started process 7893 to run task
+[2024-12-03T14:13:54.802+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'etl_process_dag', 'create_top_products_table', 'manual__2024-12-03T14:13:52.680339+00:00', '--job-id', '167', '--raw', '--subdir', 'DAGS_FOLDER/etl_sales.py', '--cfg-path', '/tmp/tmp6vt5mnia']
+[2024-12-03T14:13:54.807+0000] {standard_task_runner.py:91} INFO - Job 167: Subtask create_top_products_table
+[2024-12-03T14:13:54.918+0000] {task_command.py:426} INFO - Running <TaskInstance: etl_process_dag.create_top_products_table manual__2024-12-03T14:13:52.680339+00:00 [running]> on host a6f8f8b1d92d
+[2024-12-03T14:13:55.525+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='k.norasit' AIRFLOW_CTX_DAG_ID='etl_process_dag' AIRFLOW_CTX_TASK_ID='create_top_products_table' AIRFLOW_CTX_EXECUTION_DATE='2024-12-03T14:13:52.680339+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-03T14:13:52.680339+00:00'
+[2024-12-03T14:13:55.526+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-12-03T14:13:55.565+0000] {sql.py:276} INFO - Executing: 
+        CREATE TABLE IF NOT EXISTS top_products_in_Chiangmai (
+            order_date DATE,
+            rank_num INT,
+            product_id INT,
+            total_sales NUMERIC,
+            total_quantity INT
+        );
+        TRUNCATE TABLE top_products_in_Chiangmai;
+        
+[2024-12-03T14:13:55.585+0000] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2024-12-03T14:13:55.603+0000] {base.py:84} INFO - Using connection ID 'postgres_default' for task execution.
+[2024-12-03T14:13:55.639+0000] {sql.py:457} INFO - Running statement: 
+        CREATE TABLE IF NOT EXISTS top_products_in_Chiangmai (
+            order_date DATE,
+            rank_num INT,
+            product_id INT,
+            total_sales NUMERIC,
+            total_quantity INT
+        );
+        TRUNCATE TABLE top_products_in_Chiangmai;
+        , parameters: None
+[2024-12-03T14:13:55.649+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/providers/common/sql/hooks/sql.py:407 AirflowProviderDeprecationWarning: Call to deprecated method _make_common_data_structure. (The `_make_serializable` method is deprecated and support will be removed in a future version of the common.sql provider. Please update the DbApiHook's provider to a version based on common.sql >= 1.9.1.)
+[2024-12-03T14:13:55.655+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-12-03T14:13:55.681+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=etl_process_dag, task_id=create_top_products_table, execution_date=20241203T141352, start_date=20241203T141354, end_date=20241203T141355
+[2024-12-03T14:13:55.742+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-12-03T14:13:55.797+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.9/site-packages/***/models/baseoperator.py:1296 AirflowProviderDeprecationWarning: Call to deprecated class PostgresOperator. (Please use `***.providers.common.sql.operators.sql.SQLExecuteQueryOperator`.Also, you can provide `hook_params={'schema': <database>}`.)
+[2024-12-03T14:13:55.818+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-03T14:13:55.819+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
